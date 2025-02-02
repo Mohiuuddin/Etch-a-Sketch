@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#btn, #eraseBtn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border-style: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.grid {
+  width: 960px; /* Fixed container width */
+  height: 960px; /* Fixed container height */
+  display: flex;
+  flex-direction: column;
+  border: 2px solid;
+  /* background: gray; */
+}
+
+.row {
+  display: flex; /* Flex layout for each row */
+  flex: 1;
+}
+
+.cell {
+  flex: 1;
+  /* background-color: lightblue; */
+  /* border: 1px solid; */
+  /* transition: background-color 0.3s; */
+}
+
+/* .cell:hover {
+  background-color: hotpink;
+} */
